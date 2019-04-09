@@ -19,13 +19,26 @@ namespace XMLWeather
 
         public void displayForecast()
         {
-            date1.Text = Form1.days[1].date;
-            min1.Text = Form1.days[1].tempLow;
-            max1.Text = Form1.days[1].tempHigh;
+            
+            date1.Text = DateTime.Now.DayOfWeek.ToString();
+            min1.Text = Form1.days[1].tempLow + " °C";
+            max1.Text = Form1.days[1].tempHigh + " °C";
 
-            date2.Text = Form1.days[2].date;
-            min2.Text = Form1.days[2].tempLow;
-            max2.Text = Form1.days[2].tempHigh;
+            date2.Text = DateTime.Now.AddDays(1).DayOfWeek.ToString() ;
+            min2.Text = Form1.days[2].tempLow + " °C";
+            max2.Text = Form1.days[2].tempHigh + " °C";
+
+            date3.Text = DateTime.Now.AddDays(2).DayOfWeek.ToString();
+            min3.Text = Form1.days[3].tempLow + " °C";
+            max3.Text = Form1.days[3].tempHigh + " °C";
+
+            date4.Text = DateTime.Now.AddDays(3).DayOfWeek.ToString();
+            min4.Text = Form1.days[4].tempLow + " °C";
+            max4.Text = Form1.days[4].tempHigh + " °C";
+
+            date5.Text = DateTime.Now.AddDays(4).DayOfWeek.ToString();
+            min5.Text = Form1.days[5].tempLow + " °C";
+            max5.Text = Form1.days[5].tempHigh + " °C";
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -35,6 +48,11 @@ namespace XMLWeather
 
             CurrentScreen cs = new CurrentScreen();
             f.Controls.Add(cs);
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
