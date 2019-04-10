@@ -15,8 +15,8 @@ namespace XMLWeather
     {
         //  create list to hold day objects
         public static List<Day> days = new List<Day>();
-        string tempH, tempL;
-        decimal tempHigh, tempLow;
+        string tempH, tempL, tempC;
+        decimal tempHigh, tempLow, tempCur;
 
         public Form1()
         {
@@ -42,6 +42,10 @@ namespace XMLWeather
                 // fill day object with required data
                 reader.ReadToFollowing("time");
                 d.date = reader.GetAttribute("day");
+
+                reader.ReadToFollowing("symbol");
+                d.condition = reader.GetAttribute("name");
+                d.conNumber = reader.GetAttribute("number");
 
                 reader.ReadToFollowing("temperature");
                 tempH = reader.GetAttribute("max");
@@ -76,7 +80,17 @@ namespace XMLWeather
             reader.ReadToFollowing("city");
             days[0].location = reader.GetAttribute("name");
             reader.ReadToFollowing("temperature");
-            days[0].currentTemp = reader.GetAttribute("value");
+            
+            tempC = reader.GetAttribute("value");
+            if (tempC != null)
+            {
+                tempCur = decimal.Parse(tempC);
+                tempC = Convert.ToString(Math.Round(tempCur));
+                days[0].currentTemp = tempC;
+            }
+            reader.ReadToFollowing("weather");
+            days[0].condition = reader.GetAttribute("value");
+            days[0].conNumber = reader.GetAttribute("number");
         }
 
 

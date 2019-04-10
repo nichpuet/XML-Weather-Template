@@ -250,7 +250,6 @@
             this.day1Box.Size = new System.Drawing.Size(50, 46);
             this.day1Box.TabIndex = 83;
             this.day1Box.TabStop = false;
-            this.day1Box.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // day2Box
             // 

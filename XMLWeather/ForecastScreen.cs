@@ -50,9 +50,46 @@ namespace XMLWeather
             f.Controls.Add(cs);
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void ImageBox(string boxLabel)
         {
+            //int temp = int.Parse(Form1.days[0].conNumber);
 
+            //if (temp >= 200 && temp <= 299)
+            //{
+            //    //Thunderstorm
+            //    conditionBox.BackgroundImage = Properties.Resources.thunderstorm;
+            //}
+            //else if (temp >= 300 && temp <= 499)
+            //{
+            //    //raining
+            //    conditionBox.BackgroundImage = Properties.Resources.raining;
+            //}
+            //else if (temp >= 500 && temp <= 599)
+            //{
+            //    //raining
+            //    conditionBox.BackgroundImage = Properties.Resources.raining;
+            //}
+            //else if (temp >= 600 && temp <= 699)
+            //{
+            //    //snow
+            //    conditionBox.BackgroundImage = Properties.Resources.snow;
+            //}
+            //else if (temp >= 700 && temp <= 799)
+            //{
+            //    //Windy
+            //    conditionBox.BackgroundImage = Properties.Resources.windy;
+            //}
+            //else if (temp == 800)
+            //{
+            //    //clear
+            //    conditionBox.BackgroundImage = Properties.Resources.sunny;
+
+            //}
+            //else if (temp >= 801 && temp <= 900)
+            //{
+            //    //cloudy
+            //    conditionBox.BackgroundImage = Properties.Resources.cloudy;
+            //}
         }
     }
 }

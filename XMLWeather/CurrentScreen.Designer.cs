@@ -120,9 +120,9 @@
             // 
             this.conditionOutput.BackColor = System.Drawing.Color.Transparent;
             this.conditionOutput.ForeColor = System.Drawing.Color.White;
-            this.conditionOutput.Location = new System.Drawing.Point(91, 106);
+            this.conditionOutput.Location = new System.Drawing.Point(87, 106);
             this.conditionOutput.Name = "conditionOutput";
-            this.conditionOutput.Size = new System.Drawing.Size(71, 23);
+            this.conditionOutput.Size = new System.Drawing.Size(149, 23);
             this.conditionOutput.TabIndex = 44;
             this.conditionOutput.Text = "Condition";
             // 
@@ -138,7 +138,8 @@
             // 
             // conditionBox
             // 
-            this.conditionBox.BackColor = System.Drawing.Color.DimGray;
+            this.conditionBox.BackColor = System.Drawing.Color.Black;
+            this.conditionBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.conditionBox.Location = new System.Drawing.Point(63, 189);
             this.conditionBox.Name = "conditionBox";
             this.conditionBox.Size = new System.Drawing.Size(119, 85);
