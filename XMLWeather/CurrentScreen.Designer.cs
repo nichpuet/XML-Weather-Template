@@ -44,8 +44,9 @@
             // cityOutput
             // 
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
+            this.cityOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(91, 83);
+            this.cityOutput.Location = new System.Drawing.Point(87, 92);
             this.cityOutput.Name = "cityOutput";
             this.cityOutput.Size = new System.Drawing.Size(71, 23);
             this.cityOutput.TabIndex = 22;
@@ -54,10 +55,11 @@
             // minLabel
             // 
             this.minLabel.AutoSize = true;
+            this.minLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(47, 305);
+            this.minLabel.Location = new System.Drawing.Point(48, 332);
             this.minLabel.Name = "minLabel";
-            this.minLabel.Size = new System.Drawing.Size(23, 13);
+            this.minLabel.Size = new System.Drawing.Size(34, 20);
             this.minLabel.TabIndex = 29;
             this.minLabel.Text = "min";
             // 
@@ -66,7 +68,7 @@
             this.tempLabel.AutoSize = true;
             this.tempLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(85, 136);
+            this.tempLabel.Location = new System.Drawing.Point(94, 160);
             this.tempLabel.Name = "tempLabel";
             this.tempLabel.Size = new System.Drawing.Size(77, 29);
             this.tempLabel.TabIndex = 26;
@@ -109,18 +111,20 @@
             // dateOutput
             // 
             this.dateOutput.BackColor = System.Drawing.Color.Transparent;
+            this.dateOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.dateOutput.ForeColor = System.Drawing.Color.White;
-            this.dateOutput.Location = new System.Drawing.Point(91, 60);
+            this.dateOutput.Location = new System.Drawing.Point(87, 52);
             this.dateOutput.Name = "dateOutput";
-            this.dateOutput.Size = new System.Drawing.Size(71, 23);
+            this.dateOutput.Size = new System.Drawing.Size(95, 23);
             this.dateOutput.TabIndex = 43;
             this.dateOutput.Text = "Date";
             // 
             // conditionOutput
             // 
             this.conditionOutput.BackColor = System.Drawing.Color.Transparent;
+            this.conditionOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.conditionOutput.ForeColor = System.Drawing.Color.White;
-            this.conditionOutput.Location = new System.Drawing.Point(87, 106);
+            this.conditionOutput.Location = new System.Drawing.Point(75, 124);
             this.conditionOutput.Name = "conditionOutput";
             this.conditionOutput.Size = new System.Drawing.Size(149, 23);
             this.conditionOutput.TabIndex = 44;
@@ -129,10 +133,11 @@
             // maxLabel
             // 
             this.maxLabel.AutoSize = true;
+            this.maxLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(173, 305);
+            this.maxLabel.Location = new System.Drawing.Point(173, 332);
             this.maxLabel.Name = "maxLabel";
-            this.maxLabel.Size = new System.Drawing.Size(26, 13);
+            this.maxLabel.Size = new System.Drawing.Size(38, 20);
             this.maxLabel.TabIndex = 45;
             this.maxLabel.Text = "max";
             // 
@@ -140,7 +145,7 @@
             // 
             this.conditionBox.BackColor = System.Drawing.Color.Black;
             this.conditionBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.conditionBox.Location = new System.Drawing.Point(63, 189);
+            this.conditionBox.Location = new System.Drawing.Point(63, 220);
             this.conditionBox.Name = "conditionBox";
             this.conditionBox.Size = new System.Drawing.Size(119, 85);
             this.conditionBox.TabIndex = 46;

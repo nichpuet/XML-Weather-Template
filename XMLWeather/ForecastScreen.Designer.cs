@@ -95,156 +95,172 @@
             // date1
             // 
             this.date1.AutoSize = true;
+            this.date1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.date1.ForeColor = System.Drawing.Color.White;
-            this.date1.Location = new System.Drawing.Point(24, 88);
+            this.date1.Location = new System.Drawing.Point(12, 88);
             this.date1.Name = "date1";
-            this.date1.Size = new System.Drawing.Size(30, 13);
+            this.date1.Size = new System.Drawing.Size(38, 17);
             this.date1.TabIndex = 64;
             this.date1.Text = "Date";
             // 
             // date3
             // 
             this.date3.AutoSize = true;
+            this.date3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.date3.ForeColor = System.Drawing.Color.White;
-            this.date3.Location = new System.Drawing.Point(24, 212);
+            this.date3.Location = new System.Drawing.Point(12, 212);
             this.date3.Name = "date3";
-            this.date3.Size = new System.Drawing.Size(30, 13);
+            this.date3.Size = new System.Drawing.Size(38, 17);
             this.date3.TabIndex = 69;
             this.date3.Text = "Date";
             // 
             // date2
             // 
             this.date2.AutoSize = true;
+            this.date2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.date2.ForeColor = System.Drawing.Color.White;
-            this.date2.Location = new System.Drawing.Point(24, 150);
+            this.date2.Location = new System.Drawing.Point(12, 150);
             this.date2.Name = "date2";
-            this.date2.Size = new System.Drawing.Size(30, 13);
+            this.date2.Size = new System.Drawing.Size(38, 17);
             this.date2.TabIndex = 70;
             this.date2.Text = "Date";
             // 
             // date4
             // 
             this.date4.AutoSize = true;
+            this.date4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.date4.ForeColor = System.Drawing.Color.White;
-            this.date4.Location = new System.Drawing.Point(24, 282);
+            this.date4.Location = new System.Drawing.Point(12, 282);
             this.date4.Name = "date4";
-            this.date4.Size = new System.Drawing.Size(30, 13);
+            this.date4.Size = new System.Drawing.Size(38, 17);
             this.date4.TabIndex = 71;
             this.date4.Text = "Date";
             // 
             // date5
             // 
             this.date5.AutoSize = true;
+            this.date5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.date5.ForeColor = System.Drawing.Color.White;
-            this.date5.Location = new System.Drawing.Point(24, 345);
+            this.date5.Location = new System.Drawing.Point(12, 345);
             this.date5.Name = "date5";
-            this.date5.Size = new System.Drawing.Size(30, 13);
+            this.date5.Size = new System.Drawing.Size(38, 17);
             this.date5.TabIndex = 72;
             this.date5.Text = "Date";
             // 
             // min1
             // 
             this.min1.AutoSize = true;
+            this.min1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min1.ForeColor = System.Drawing.Color.White;
             this.min1.Location = new System.Drawing.Point(86, 88);
             this.min1.Name = "min1";
-            this.min1.Size = new System.Drawing.Size(23, 13);
+            this.min1.Size = new System.Drawing.Size(30, 17);
             this.min1.TabIndex = 73;
             this.min1.Text = "min";
             // 
             // max1
             // 
             this.max1.AutoSize = true;
+            this.max1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max1.ForeColor = System.Drawing.Color.White;
             this.max1.Location = new System.Drawing.Point(195, 88);
             this.max1.Name = "max1";
-            this.max1.Size = new System.Drawing.Size(26, 13);
+            this.max1.Size = new System.Drawing.Size(33, 17);
             this.max1.TabIndex = 74;
             this.max1.Text = "max";
             // 
             // max2
             // 
             this.max2.AutoSize = true;
+            this.max2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max2.ForeColor = System.Drawing.Color.White;
             this.max2.Location = new System.Drawing.Point(195, 150);
             this.max2.Name = "max2";
-            this.max2.Size = new System.Drawing.Size(26, 13);
+            this.max2.Size = new System.Drawing.Size(33, 17);
             this.max2.TabIndex = 76;
             this.max2.Text = "max";
             // 
             // min2
             // 
             this.min2.AutoSize = true;
+            this.min2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min2.ForeColor = System.Drawing.Color.White;
             this.min2.Location = new System.Drawing.Point(86, 150);
             this.min2.Name = "min2";
-            this.min2.Size = new System.Drawing.Size(23, 13);
+            this.min2.Size = new System.Drawing.Size(30, 17);
             this.min2.TabIndex = 75;
             this.min2.Text = "min";
             // 
             // max3
             // 
             this.max3.AutoSize = true;
+            this.max3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max3.ForeColor = System.Drawing.Color.White;
             this.max3.Location = new System.Drawing.Point(195, 212);
             this.max3.Name = "max3";
-            this.max3.Size = new System.Drawing.Size(26, 13);
+            this.max3.Size = new System.Drawing.Size(33, 17);
             this.max3.TabIndex = 78;
             this.max3.Text = "max";
             // 
             // min3
             // 
             this.min3.AutoSize = true;
+            this.min3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min3.ForeColor = System.Drawing.Color.White;
             this.min3.Location = new System.Drawing.Point(86, 212);
             this.min3.Name = "min3";
-            this.min3.Size = new System.Drawing.Size(23, 13);
+            this.min3.Size = new System.Drawing.Size(30, 17);
             this.min3.TabIndex = 77;
             this.min3.Text = "min";
             // 
             // max4
             // 
             this.max4.AutoSize = true;
+            this.max4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max4.ForeColor = System.Drawing.Color.White;
             this.max4.Location = new System.Drawing.Point(195, 282);
             this.max4.Name = "max4";
-            this.max4.Size = new System.Drawing.Size(26, 13);
+            this.max4.Size = new System.Drawing.Size(33, 17);
             this.max4.TabIndex = 80;
             this.max4.Text = "max";
             // 
             // min4
             // 
             this.min4.AutoSize = true;
+            this.min4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min4.ForeColor = System.Drawing.Color.White;
             this.min4.Location = new System.Drawing.Point(86, 282);
             this.min4.Name = "min4";
-            this.min4.Size = new System.Drawing.Size(23, 13);
+            this.min4.Size = new System.Drawing.Size(30, 17);
             this.min4.TabIndex = 79;
             this.min4.Text = "min";
             // 
             // max5
             // 
             this.max5.AutoSize = true;
+            this.max5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max5.ForeColor = System.Drawing.Color.White;
             this.max5.Location = new System.Drawing.Point(195, 345);
             this.max5.Name = "max5";
-            this.max5.Size = new System.Drawing.Size(26, 13);
+            this.max5.Size = new System.Drawing.Size(33, 17);
             this.max5.TabIndex = 82;
             this.max5.Text = "max";
             // 
             // min5
             // 
             this.min5.AutoSize = true;
+            this.min5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min5.ForeColor = System.Drawing.Color.White;
             this.min5.Location = new System.Drawing.Point(86, 345);
             this.min5.Name = "min5";
-            this.min5.Size = new System.Drawing.Size(23, 13);
+            this.min5.Size = new System.Drawing.Size(30, 17);
             this.min5.TabIndex = 81;
             this.min5.Text = "min";
             // 
             // day1Box
             // 
-            this.day1Box.BackColor = System.Drawing.Color.DimGray;
+            this.day1Box.BackColor = System.Drawing.Color.Black;
+            this.day1Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.day1Box.Location = new System.Drawing.Point(134, 69);
             this.day1Box.Name = "day1Box";
             this.day1Box.Size = new System.Drawing.Size(50, 46);
@@ -253,7 +269,8 @@
             // 
             // day2Box
             // 
-            this.day2Box.BackColor = System.Drawing.Color.DimGray;
+            this.day2Box.BackColor = System.Drawing.Color.Black;
+            this.day2Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.day2Box.Location = new System.Drawing.Point(134, 134);
             this.day2Box.Name = "day2Box";
             this.day2Box.Size = new System.Drawing.Size(50, 46);
@@ -262,7 +279,8 @@
             // 
             // day3Box
             // 
-            this.day3Box.BackColor = System.Drawing.Color.DimGray;
+            this.day3Box.BackColor = System.Drawing.Color.Black;
+            this.day3Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.day3Box.Location = new System.Drawing.Point(134, 196);
             this.day3Box.Name = "day3Box";
             this.day3Box.Size = new System.Drawing.Size(50, 46);
@@ -271,7 +289,8 @@
             // 
             // day4Box
             // 
-            this.day4Box.BackColor = System.Drawing.Color.DimGray;
+            this.day4Box.BackColor = System.Drawing.Color.Black;
+            this.day4Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.day4Box.Location = new System.Drawing.Point(134, 262);
             this.day4Box.Name = "day4Box";
             this.day4Box.Size = new System.Drawing.Size(50, 46);
@@ -280,7 +299,8 @@
             // 
             // day5Box
             // 
-            this.day5Box.BackColor = System.Drawing.Color.DimGray;
+            this.day5Box.BackColor = System.Drawing.Color.Black;
+            this.day5Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.day5Box.Location = new System.Drawing.Point(134, 330);
             this.day5Box.Name = "day5Box";
             this.day5Box.Size = new System.Drawing.Size(50, 46);
