@@ -68,6 +68,7 @@
             this.forecastLabel.Size = new System.Drawing.Size(83, 28);
             this.forecastLabel.TabIndex = 62;
             this.forecastLabel.Text = "5 Day";
+            this.forecastLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label3
             // 
