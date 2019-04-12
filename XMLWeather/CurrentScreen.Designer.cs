@@ -96,7 +96,7 @@
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(83, 28);
             this.forecastLabel.TabIndex = 41;
-            this.forecastLabel.Text = "7 Day";
+            this.forecastLabel.Text = "5 Day";
             this.forecastLabel.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.forecastLabel.Click += new System.EventHandler(this.forecastLabel_Click);
             // 
@@ -148,7 +148,7 @@
             // 
             // conditionBox
             // 
-            this.conditionBox.BackColor = System.Drawing.Color.Black;
+            this.conditionBox.BackColor = System.Drawing.Color.DarkCyan;
             this.conditionBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.conditionBox.Location = new System.Drawing.Point(63, 220);
             this.conditionBox.Name = "conditionBox";
@@ -160,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.DarkCyan;
             this.Controls.Add(this.conditionBox);
             this.Controls.Add(this.maxLabel);
             this.Controls.Add(this.conditionOutput);

@@ -153,7 +153,7 @@
             this.min1.AutoSize = true;
             this.min1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min1.ForeColor = System.Drawing.Color.White;
-            this.min1.Location = new System.Drawing.Point(86, 88);
+            this.min1.Location = new System.Drawing.Point(101, 88);
             this.min1.Name = "min1";
             this.min1.Size = new System.Drawing.Size(30, 17);
             this.min1.TabIndex = 73;
@@ -164,29 +164,31 @@
             this.max1.AutoSize = true;
             this.max1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max1.ForeColor = System.Drawing.Color.White;
-            this.max1.Location = new System.Drawing.Point(195, 88);
+            this.max1.Location = new System.Drawing.Point(211, 88);
             this.max1.Name = "max1";
             this.max1.Size = new System.Drawing.Size(33, 17);
             this.max1.TabIndex = 74;
             this.max1.Text = "max";
+            this.max1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // max2
             // 
             this.max2.AutoSize = true;
             this.max2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max2.ForeColor = System.Drawing.Color.White;
-            this.max2.Location = new System.Drawing.Point(195, 150);
+            this.max2.Location = new System.Drawing.Point(211, 150);
             this.max2.Name = "max2";
             this.max2.Size = new System.Drawing.Size(33, 17);
             this.max2.TabIndex = 76;
             this.max2.Text = "max";
+            this.max2.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // min2
             // 
             this.min2.AutoSize = true;
             this.min2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min2.ForeColor = System.Drawing.Color.White;
-            this.min2.Location = new System.Drawing.Point(86, 150);
+            this.min2.Location = new System.Drawing.Point(101, 150);
             this.min2.Name = "min2";
             this.min2.Size = new System.Drawing.Size(30, 17);
             this.min2.TabIndex = 75;
@@ -197,18 +199,19 @@
             this.max3.AutoSize = true;
             this.max3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max3.ForeColor = System.Drawing.Color.White;
-            this.max3.Location = new System.Drawing.Point(195, 212);
+            this.max3.Location = new System.Drawing.Point(211, 212);
             this.max3.Name = "max3";
             this.max3.Size = new System.Drawing.Size(33, 17);
             this.max3.TabIndex = 78;
             this.max3.Text = "max";
+            this.max3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // min3
             // 
             this.min3.AutoSize = true;
             this.min3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min3.ForeColor = System.Drawing.Color.White;
-            this.min3.Location = new System.Drawing.Point(86, 212);
+            this.min3.Location = new System.Drawing.Point(101, 212);
             this.min3.Name = "min3";
             this.min3.Size = new System.Drawing.Size(30, 17);
             this.min3.TabIndex = 77;
@@ -219,18 +222,19 @@
             this.max4.AutoSize = true;
             this.max4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max4.ForeColor = System.Drawing.Color.White;
-            this.max4.Location = new System.Drawing.Point(195, 282);
+            this.max4.Location = new System.Drawing.Point(211, 282);
             this.max4.Name = "max4";
             this.max4.Size = new System.Drawing.Size(33, 17);
             this.max4.TabIndex = 80;
             this.max4.Text = "max";
+            this.max4.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // min4
             // 
             this.min4.AutoSize = true;
             this.min4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min4.ForeColor = System.Drawing.Color.White;
-            this.min4.Location = new System.Drawing.Point(86, 282);
+            this.min4.Location = new System.Drawing.Point(101, 282);
             this.min4.Name = "min4";
             this.min4.Size = new System.Drawing.Size(30, 17);
             this.min4.TabIndex = 79;
@@ -241,18 +245,19 @@
             this.max5.AutoSize = true;
             this.max5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.max5.ForeColor = System.Drawing.Color.White;
-            this.max5.Location = new System.Drawing.Point(195, 345);
+            this.max5.Location = new System.Drawing.Point(211, 345);
             this.max5.Name = "max5";
             this.max5.Size = new System.Drawing.Size(33, 17);
             this.max5.TabIndex = 82;
             this.max5.Text = "max";
+            this.max5.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // min5
             // 
             this.min5.AutoSize = true;
             this.min5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.min5.ForeColor = System.Drawing.Color.White;
-            this.min5.Location = new System.Drawing.Point(86, 345);
+            this.min5.Location = new System.Drawing.Point(101, 345);
             this.min5.Name = "min5";
             this.min5.Size = new System.Drawing.Size(30, 17);
             this.min5.TabIndex = 81;
@@ -260,9 +265,9 @@
             // 
             // day1Box
             // 
-            this.day1Box.BackColor = System.Drawing.Color.Black;
+            this.day1Box.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.day1Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.day1Box.Location = new System.Drawing.Point(134, 69);
+            this.day1Box.Location = new System.Drawing.Point(147, 71);
             this.day1Box.Name = "day1Box";
             this.day1Box.Size = new System.Drawing.Size(50, 46);
             this.day1Box.TabIndex = 83;
@@ -270,9 +275,9 @@
             // 
             // day2Box
             // 
-            this.day2Box.BackColor = System.Drawing.Color.Black;
+            this.day2Box.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.day2Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.day2Box.Location = new System.Drawing.Point(134, 134);
+            this.day2Box.Location = new System.Drawing.Point(147, 134);
             this.day2Box.Name = "day2Box";
             this.day2Box.Size = new System.Drawing.Size(50, 46);
             this.day2Box.TabIndex = 84;
@@ -280,9 +285,9 @@
             // 
             // day3Box
             // 
-            this.day3Box.BackColor = System.Drawing.Color.Black;
+            this.day3Box.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.day3Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.day3Box.Location = new System.Drawing.Point(134, 196);
+            this.day3Box.Location = new System.Drawing.Point(147, 195);
             this.day3Box.Name = "day3Box";
             this.day3Box.Size = new System.Drawing.Size(50, 46);
             this.day3Box.TabIndex = 85;
@@ -290,9 +295,9 @@
             // 
             // day4Box
             // 
-            this.day4Box.BackColor = System.Drawing.Color.Black;
+            this.day4Box.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.day4Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.day4Box.Location = new System.Drawing.Point(134, 262);
+            this.day4Box.Location = new System.Drawing.Point(147, 262);
             this.day4Box.Name = "day4Box";
             this.day4Box.Size = new System.Drawing.Size(50, 46);
             this.day4Box.TabIndex = 86;
@@ -300,9 +305,9 @@
             // 
             // day5Box
             // 
-            this.day5Box.BackColor = System.Drawing.Color.Black;
+            this.day5Box.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.day5Box.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.day5Box.Location = new System.Drawing.Point(134, 330);
+            this.day5Box.Location = new System.Drawing.Point(147, 331);
             this.day5Box.Name = "day5Box";
             this.day5Box.Size = new System.Drawing.Size(50, 46);
             this.day5Box.TabIndex = 87;
@@ -312,7 +317,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.DarkOliveGreen;
             this.Controls.Add(this.day5Box);
             this.Controls.Add(this.day4Box);
             this.Controls.Add(this.day3Box);
