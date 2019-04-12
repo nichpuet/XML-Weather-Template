@@ -19,6 +19,7 @@ namespace XMLWeather
 
         public void DisplayCurrent()
         {
+            //Capitalizes each word in the current conditions
             string temp2 = Form1.days[0].condition;
             temp2 = char.ToUpper(temp2[0]) + temp2.Substring(1);
 
@@ -31,6 +32,7 @@ namespace XMLWeather
                 }
             }
 
+            //Displays all the information including an image matching the weather condition
             dateOutput.Text = DateTime.Now.ToString();
             conditionOutput.Text = temp2;
             cityOutput.Text = Form1.days[0].location;

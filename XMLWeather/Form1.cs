@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Nick Puetz | Weather app | April 12th 2019
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,7 +13,7 @@ using System.Xml;
 
 namespace XMLWeather
 {
-    public partial class Form1 : Form
+        public partial class Form1 : Form
     {
         //  create list to hold day objects
         public static List<Day> days = new List<Day>();
@@ -47,6 +49,7 @@ namespace XMLWeather
                 d.condition = reader.GetAttribute("name");
                 d.conNumber = reader.GetAttribute("number");
 
+                //Rounds temperature as it is grabbed from the xml
                 reader.ReadToFollowing("temperature");
                 tempH = reader.GetAttribute("max");
                 if (tempH != null)
@@ -81,6 +84,7 @@ namespace XMLWeather
             days[0].location = reader.GetAttribute("name");
             reader.ReadToFollowing("temperature");
             
+            //rounds current temp from the the xml
             tempC = reader.GetAttribute("value");
             if (tempC != null)
             {

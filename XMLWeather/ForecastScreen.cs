@@ -21,7 +21,7 @@ namespace XMLWeather
 
         public void displayForecast()
         {
-            
+            //Displays the temps and calls the condition method for each day
             date1.Text = DateTime.Now.AddDays(1).DayOfWeek.ToString();
             min1.Text = Form1.days[1].tempLow + " °C";
             max1.Text = Form1.days[1].tempHigh + " °C";
@@ -60,6 +60,7 @@ namespace XMLWeather
 
         private void drawImage(int dayNum)
         {
+            //displays that days conditions and temps depending on which day was input
             picList.Add(day1Box);
             picList.Add(day2Box);
             picList.Add(day3Box);
